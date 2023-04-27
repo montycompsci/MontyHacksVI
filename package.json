@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://{github-username}.github.io/{repo-name}",
+  "homepage": "http://montycompsci.github.io/MontyHacksVI",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
