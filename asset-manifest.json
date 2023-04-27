@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/%7Brepo-name%7D/static/css/main.4cc4047d.css",
+    "main.js": "/%7Brepo-name%7D/static/js/main.d9577f16.js",
+    "static/js/787.71e672d5.chunk.js": "/%7Brepo-name%7D/static/js/787.71e672d5.chunk.js",
+    "static/media/tigerstale.png": "/%7Brepo-name%7D/static/media/tigerstale.671d7342656b9d526d01.png",
+    "static/media/singer.png": "/%7Brepo-name%7D/static/media/singer.15cfcf1d1721204036c2.png",
+    "static/media/voiceflow.png": "/%7Brepo-name%7D/static/media/voiceflow.ac7355f785dcccb784de.png",
+    "static/media/instacrystal.png": "/%7Brepo-name%7D/static/media/instacrystal.775a08d58dc4a3fe591c.png",
+    "static/media/montyhacks.png": "/%7Brepo-name%7D/static/media/montyhacks.71abac12016e48332318.png",
+    "static/media/roboflow2.png": "/%7Brepo-name%7D/static/media/roboflow2.f161a5a7c4f424924467.png",
+    "static/media/coderschool.png": "/%7Brepo-name%7D/static/media/coderschool.905f4111f3c194c1c0f1.png",
+    "static/media/montyhacks-transparent.png": "/%7Brepo-name%7D/static/media/montyhacks-transparent.1c1db8bb50a21d6a207d.png",
+    "static/media/stickergiant.png": "/%7Brepo-name%7D/static/media/stickergiant.f7d435b938c93387598a.png",
+    "static/media/kent.png": "/%7Brepo-name%7D/static/media/kent.0c5f4ca03a6511b5dd05.png",
+    "static/media/brightsight.png": "/%7Brepo-name%7D/static/media/brightsight.b91a7b003e1647fabc64.png",
+    "static/media/1password.png": "/%7Brepo-name%7D/static/media/1password.416dc3adc21853dbd198.png",
+    "static/media/codeninjas2.png": "/%7Brepo-name%7D/static/media/codeninjas2.062416d6ec0d6ec2884e.png",
+    "static/media/taskade.png": "/%7Brepo-name%7D/static/media/taskade.01f92fef922e98a182c6.png",
+    "static/media/wolfram.svg": "/%7Brepo-name%7D/static/media/wolfram.dd196a7fe61b699c835bd203daa38b95.svg",
+    "static/media/interviewcake.svg": "/%7Brepo-name%7D/static/media/interviewcake.7a72a2f13985197be766d8ebd7352b22.svg",
+    "static/media/theme.svg": "/%7Brepo-name%7D/static/media/theme.9273e1128c3dedc6f56e89012742d517.svg",
+    "index.html": "/%7Brepo-name%7D/index.html",
+    "static/media/prizes.svg": "/%7Brepo-name%7D/static/media/prizes.e0d8fa72449ad60f71b2082d84b63871.svg",
+    "static/media/money.svg": "/%7Brepo-name%7D/static/media/money.09887e49a897dc4787650e54f452db10.svg",
+    "static/media/location.svg": "/%7Brepo-name%7D/static/media/location.8885997c3b5aa1ae5caf798c7fc48e8d.svg",
+    "static/media/person.svg": "/%7Brepo-name%7D/static/media/person.7c25bdd79e2f0abb2ab5c6bd7d6a26d8.svg",
+    "static/media/clock.svg": "/%7Brepo-name%7D/static/media/clock.3a437317f4fdf29d9c54c646632bf3e1.svg",
+    "main.4cc4047d.css.map": "/%7Brepo-name%7D/static/css/main.4cc4047d.css.map",
+    "main.d9577f16.js.map": "/%7Brepo-name%7D/static/js/main.d9577f16.js.map",
+    "787.71e672d5.chunk.js.map": "/%7Brepo-name%7D/static/js/787.71e672d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cc4047d.css",
+    "static/js/main.d9577f16.js"
+  ]
+}
