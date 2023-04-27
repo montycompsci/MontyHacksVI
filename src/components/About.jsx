@@ -21,7 +21,7 @@ function About() {
             height="40"
             style={{ marginRight: "20px" }}
           />
-          <strong class="about-section">When:</strong> June 11th, 2022 <br />{" "}
+          <strong class="about-section">When:</strong> May 13th, 2023 <br />{" "}
           <br />
           <img
             src={location}
@@ -73,7 +73,7 @@ function About() {
             style={{ marginRight: "20px", marginTop: "-8px" }}
           />
           <strong class="about-section">Theme:</strong> The theme of MontyHacks
-          V is Sustainability.
+          VI is Accessibility.
           <br />
           <br />
         </p>

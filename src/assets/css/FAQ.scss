@@ -1,11 +1,11 @@
 @mixin main-colors {
-  background-color: rgba(14, 83, 144, 0.3) !important;
+  background-color: #e61a13 !important;
   color: white !important;
 }
 
 .accordion-button {
   @include main-colors;
-  background-color: rgba(14, 83, 144, 0.1) !important;
+  background-color: #e61a13 !important;
   font-style: bold;
   // outline: solid white 1px;
   // border: solid white 10px;
@@ -13,7 +13,7 @@
 
 .accordion-item {
   @include main-colors;
-  background-color: rgba(14, 83, 144, 0.2) !important;
+  background-color: #E95C57 !important;
   font-style: italic;
   // border: solid white 10px;
   // outline: solid white 1px;
@@ -23,9 +23,9 @@
   padding: 2.5em;
   border-radius: 10px;
   border-radius: 50px;
-  background: #0a4c86 !important;
-  -webkit-box-shadow: 32px 32px 63px #094172, -32px -32px 63px #0c579a;
-  box-shadow: 32px 32px 63px #094172, -32px -32px 63px #0c579a;
+  background: #e61a13 !important;
+  -webkit-box-shadow: 32px 32px 63px #e61a13, -32px -32px 63px #9a0c0c;
+  box-shadow: 32px 32px 63px #e61a13, -32px -32px 63px #9a0c0c;
 }
 
 .accordion-button:after {

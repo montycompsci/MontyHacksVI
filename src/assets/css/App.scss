@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
 
 :root {
-  --primary-color: #4158d0;
+  --primary-color: #E95C57;
 }
 
 // $bs-body-bg: linear-gradient(to bottom, blue, red);
-$bs-body-bg: #0a4c86;
-$bs-body-bg-end: #6cfa9f;
+$bs-body-bg: #E95C57;
+$bs-body-bg-end: #E95C57;
 
 $section-bg: rgba(14, 83, 144, 0.3);
 
@@ -15,7 +15,7 @@ body {
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
   // background: linear-gradient(to bottom, rgb(61, 119, 139), #0a4c86) !important;
-  background-color: #0a4c86 !important;
+  background-color: #E95C57 !important;
 }
 
 ul {
@@ -42,10 +42,10 @@ a {
 //   margin-bottom: 1em;
 // }
 
-$main-color: #0a4c86;
-$gradient-color1: #08467c;
-$gradient-color2: #256398;
-$gradient-color3: #09569a;
+$main-color: #E95C57;
+$gradient-color1: #E95C57;
+$gradient-color2: #E95C57;
+$gradient-color3: #E95C57;
 
 .about-container {
   background: linear-gradient(to bottom, $main-color, $gradient-color1);

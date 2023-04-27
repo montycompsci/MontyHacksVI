@@ -1,5 +1,5 @@
 import "../assets/css/Header.scss";
-import Logo from "../assets/imgs/logo.png";
+import Logo from "../assets/imgs/montyhacks-transparent.png";
 
 function Header() {
   return (
@@ -14,12 +14,13 @@ function Header() {
             className="logo"
           ></img>
         </div>
-        <h1 className="title">MontyHacks v</h1>
+        <h1 className="title">MontyHacks VI</h1>
         <br />
-        <h3 className="hackathon-date">june 11th</h3>
+        <h3 className="hackathon-date">May 13th</h3>
         <br />
         <div id="signup-btn-wrapper">
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSeNDT4Dtgm7PB7v9xPtlmylRjVkhchQ0L5HWHdUb5CKPOKQFA/viewform?usp=sf_link">
+            {/* Change the form */}
             <button id="signup-btn">Sign up</button>
           </a>
         </div>

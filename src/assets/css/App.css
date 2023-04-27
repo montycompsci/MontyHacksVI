@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
 :root {
-  --primary-color: #4158d0;
+  --primary-color: #eb8683;
 }
 
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
-  background-color: #0a4c86 !important;
+  background-color: #E95C57 !important;
 }
 
 ul {
@@ -31,8 +31,8 @@ a {
 }
 
 .about-container {
-  background: -webkit-gradient(linear, left bottom, left top, from(#3f8caf), to(#0a4c86));
-  background: linear-gradient(to top, #3f8caf, #0a4c86);
+  background: -webkit-gradient(linear, left bottom, left top, from(#eb8683), to(#E95C57));
+  background: linear-gradient(to top, #eb8683, #E95C57);
 }
 
 .sponsors-container {
@@ -41,7 +41,7 @@ a {
 
 .wave {
   margin-top: -6em;
-  background-color: #3f8caf;
+  background-color: #eb8683;
 }
 
 @media screen and (max-width: 768px) {

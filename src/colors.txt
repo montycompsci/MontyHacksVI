@@ -4,3 +4,9 @@ Secondary blue: #0a4c86
 Gradient:
 Darker green = #3ceb7b
 Lighter green = #99ffbe
+
+
+
+// MontyHacks VI Colors
+Main Red: #E95C57
+Dark Red: #e61a13

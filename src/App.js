@@ -11,7 +11,6 @@ import "aos/dist/aos.css";
 import React, { useEffect } from "react";
 import Wave from "./components/Wave";
 
-
 function App() {
 
   useEffect(() => {
