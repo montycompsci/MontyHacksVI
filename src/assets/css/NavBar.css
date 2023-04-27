@@ -1,0 +1,18 @@
+.navbar-bootstrap {
+  opacity: 0.8;
+}
+
+#nav-logo {
+  font-family: "Major Mono Display", sans-serif;
+  font-weight: bold;
+}
+
+.small-space {
+  font-size: 0.4em;
+}
+
+.logo-text {
+  white-space: pre;
+  margin-left: -8px !important;
+}
+/*# sourceMappingURL=NavBar.css.map */

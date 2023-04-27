@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+.head {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3d778b), to(#0a4c86));
+  background: linear-gradient(to bottom, #3d778b, #0a4c86);
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.head .title {
+  font-family: "Major Mono Display", sans-serif;
+  color: #2dfca6;
+  font-size: 6vw;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: -0.6rem;
+  margin-top: 0.4rem;
+}
+
+.head .hackathon-date {
+  font-family: "Major Mono Display", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.5vw;
+  color: white;
+  padding-bottom: .6rem;
+}
+
+.head .logo {
+  text-align: center;
+  margin: auto;
+  width: 250px;
+  height: 200px;
+}
+
+@media screen and (max-width: 600px) {
+  .head {
+    padding: 10vw;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: 8vw !important;
+  }
+  .hackathon-date {
+    font-size: 6vw !important;
+  }
+}
+
+/* From uiverse.io by @nikk7007 */
+#signup-btn {
+  padding: 0.8em 1.8em;
+  border: 2px solid #17c3b2;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 16px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #17c3b2;
+}
+
+#signup-btn::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+          transform: translate(-50%, -50%) rotate(45deg);
+  background: #17c3b2;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+#signup-btn:hover::before {
+  width: 105%;
+}
+
+#signup-btn:hover {
+  color: #111;
+}
+
+#signup-btn-wrapper {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,55 @@
+.schedule-item {
+  background-color: rgba(14, 83, 144, 0.1) !important;
+}
+
+.list-group-item {
+  padding: 1em 3em !important;
+  outline: solid rgba(15, 100, 173, 0.1) 3px;
+}
+
+.schedule-item-text {
+  color: white;
+  white-space: pre;
+}
+
+.schedule-item-name {
+  text-align: right;
+  width: 100%;
+}
+
+.schedule {
+  border-radius: 50px;
+  background: #0a4c86 !important;
+  -webkit-box-shadow: 32px 32px 63px #094172, -32px -32px 63px #0c579a;
+          box-shadow: 32px 32px 63px #094172, -32px -32px 63px #0c579a;
+  width: 60%;
+  margin: auto;
+}
+
+.top {
+  border-top-left-radius: 50px !important;
+  border-top-right-radius: 50px !important;
+  padding-top: 2em !important;
+}
+
+.bottom {
+  border-bottom-left-radius: 50px !important;
+  border-bottom-right-radius: 50px !important;
+  padding-bottom: 2em !important;
+}
+
+@media screen and (max-width: 768px) {
+  .list-group-item {
+    padding: 1.5em 1.5em !important;
+    font-size: 3.5vw;
+  }
+  .top {
+    border-top-left-radius: 50px !important;
+    border-top-right-radius: 50px !important;
+  }
+  .bottom {
+    border-bottom-left-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
+  }
+}
+/*# sourceMappingURL=Schedule.css.map */

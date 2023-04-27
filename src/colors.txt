@@ -1,0 +1,6 @@
+Main green: #6cfa9f
+Secondary blue: #0a4c86
+
+Gradient:
+Darker green = #3ceb7b
+Lighter green = #99ffbe

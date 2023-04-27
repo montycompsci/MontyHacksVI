@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+
+// $bg: #0a4c86;
+// $accent: #2dfca6;
+$accent: #2dfca6;
+
+.head {
+  background: linear-gradient(to bottom, rgb(61, 119, 139), #0a4c86);
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  .title {
+    font-family: "Major Mono Display", sans-serif;
+    color: $accent;
+    // font-size: 4.1em;
+    font-size: 6vw;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -0.6rem;
+    margin-top: 0.4rem;
+  }
+
+  .hackathon-date {
+    font-family: "Major Mono Display", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    // font-size: 2.4em;
+    font-size: 3.5vw;
+    color: white;
+    padding-bottom: .6rem;
+  }
+
+  .logo {
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .head {
+    padding: 10vw;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin: auto;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .title {
+    font-size: 8vw !important;
+
+  }
+
+  .hackathon-date {
+    font-size: 6vw !important;
+  }
+
+}
+
+/* From uiverse.io by @nikk7007 */
+#signup-btn {
+  padding: 0.8em 1.8em;
+  border: 2px solid #17c3b2;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #17c3b2;
+}
+
+#signup-btn::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #17c3b2;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+#signup-btn:hover::before {
+  width: 105%;
+}
+
+#signup-btn:hover {
+  color: #111;
+}
+
+#signup-btn-wrapper {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // background: red;
+}

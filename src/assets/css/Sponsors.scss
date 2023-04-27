@@ -1,0 +1,188 @@
+.sponsors {
+  border-radius: 50px;
+  background: #0a4c86 !important;
+  // background: rgb(180, 215, 255) !important;
+  box-shadow: 32px 32px 63px #094172, -32px -32px 63px #0c579a;
+  width: 60%;
+  margin: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.sponsors-text {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 2em;
+}
+
+.plat-sponsor-logos, .gold-sponsor-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  img {
+    width: 35vw; 
+    height: 35vw;
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
+
+.silver-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.75em;
+  margin-bottom: 0.25em;
+
+  div {
+    width: 22vw;
+    height: 15vw;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    position: relative;
+    // background-color: #094172;
+    // border-radius: 10px;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    position: absolute;
+    margin: auto;
+  }
+}
+
+.in-kind-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.75em;
+  margin-bottom: 0.25em;
+
+  div {
+    width: 20vw;
+    height: 12vw;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    position: relative;
+  }
+
+  img {
+    max-height: 100%;
+    max-width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: auto;
+    
+  }
+}
+
+.financial-logo {
+  margin: 2em;
+}
+
+#sponsors {
+  width: 100%;
+}
+
+
+
+// Sponsor logo configuration
+// gold
+
+// silver
+
+// #codeninjas {
+//   height: 8vw;
+// }
+
+
+// in-kind
+
+// #roboflow {
+//   width: 15vw;
+//   height: 7vw;
+// }
+
+// #voiceflow {
+//   width: 12vw;
+//   height: 5vw;
+// }
+
+// #interviewcake {
+//   width: 15vw;
+//   height: 5vw;
+// }
+
+// #xyz {
+//   width: 10vw;
+//   height: 5vw;
+// }
+
+// #onepassword {
+//   width: 13vw;
+//   height: 3vw;
+// }
+
+@media screen and (max-width: 800px) {
+  .sponsors {
+    width: 80%;
+  }
+
+  .silver-row {
+    div {
+      // width: 20vw;
+      // height: 15vw;
+      margin-right: 1em;
+      margin-left: 1em;
+    }
+  }
+
+  .in-kind-row {
+    div {
+      // width: 18vw;
+      // height: 13vw;
+      margin-right: 1em;
+      margin-left: 1em;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .silver-row {
+    div {
+      // width: 18vw;
+      // height: 13vw;
+      margin-right: .5em;
+      margin-left: .5em;
+    }
+  }
+
+  .in-kind-row {
+    div {
+      // width: 15vw;
+      // height: 10vw;
+      margin-right: .5em;
+      margin-left: .5em;
+    }
+  }
+}

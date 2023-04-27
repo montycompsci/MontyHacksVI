@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&display=swap');
+
+#about-text {
+  color: white;
+  margin: 0;
+}
+
+.about {
+  padding-top: 1.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border-radius: 10px;
+  border-radius: 50px;
+  background: #0a4c86 !important;
+  box-shadow: 32px 32px 63px #094172, -32px -32px 63px #0c579a;
+}
+
+.about-section {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 800;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+$btn-color: #7fe7fe;
+
+/* From uiverse.io by @nikk7007 */
+#about-btn {
+  padding: 0.8em 1.8em;
+  border: 2px solid $btn-color;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: inherit;
+  color: $btn-color;
+  margin: 2em;
+  margin-top: 3em;
+}
+
+#about-btn::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: $btn-color;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+#about-btn:hover::before {
+  width: 105%;
+}
+
+#about-btn:hover {
+  color: #111;
+}
+
+#about-btn-wrapper {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // background: red;
+}

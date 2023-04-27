@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+:root {
+  --primary-color: #4158d0;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  background-color: #0a4c86 !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section-title {
+  font-family: "Major Mono Display", sans-serif;
+  text-align: center;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.react-container {
+  margin-bottom: 1em;
+}
+
+.about-container {
+  background: -webkit-gradient(linear, left bottom, left top, from(#3f8caf), to(#0a4c86));
+  background: linear-gradient(to top, #3f8caf, #0a4c86);
+}
+
+.sponsors-container {
+  margin-bottom: 20%;
+}
+
+.wave {
+  margin-top: -6em;
+  background-color: #3f8caf;
+}
+
+@media screen and (max-width: 768px) {
+  .react-container {
+    width: 90% !important;
+  }
+}
+/*# sourceMappingURL=App.css.map */

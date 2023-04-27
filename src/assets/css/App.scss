@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+:root {
+  --primary-color: #4158d0;
+}
+
+// $bs-body-bg: linear-gradient(to bottom, blue, red);
+$bs-body-bg: #0a4c86;
+$bs-body-bg-end: #6cfa9f;
+
+$section-bg: rgba(14, 83, 144, 0.3);
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  // background: linear-gradient(to bottom, rgb(61, 119, 139), #0a4c86) !important;
+  background-color: #0a4c86 !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1080px) {
+}
+
+.section-title {
+  font-family: "Major Mono Display", sans-serif;
+  text-align: center;
+  font-weight: 800;
+  // color: #99ffbe;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 1em;
+}
+
+// .react-container {
+//   margin-bottom: 1em;
+// }
+
+$main-color: #0a4c86;
+$gradient-color1: #08467c;
+$gradient-color2: #256398;
+$gradient-color3: #09569a;
+
+.about-container {
+  background: linear-gradient(to bottom, $main-color, $gradient-color1);
+}
+
+.wave1 {
+  padding-top: 4em;
+  background: $gradient-color1;
+}
+
+.faq-container {
+  padding-bottom: 4em;
+  background: linear-gradient(to top, $gradient-color2, $main-color);
+}
+
+.wave2 {
+  padding-top: 2em;
+  background: $gradient-color2;
+}
+
+.schedule-container {
+  background: linear-gradient(to top, $gradient-color3, $main-color);
+}
+
+.wave3 {
+  padding-top: 4em;
+  background: $gradient-color3;
+}
+
+.sponsors-container {
+  margin-bottom: 20%;
+}
+
+
+.app-container {
+  width: 60%;
+  margin: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .app-container {
+    width: 80%;
+  }
+}

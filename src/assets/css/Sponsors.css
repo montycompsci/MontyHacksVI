@@ -1,0 +1,123 @@
+.sponsors {
+  border-radius: 50px;
+  background: #0a4c86 !important;
+  -webkit-box-shadow: 32px 32px 63px #094172, -32px -32px 63px #0c579a;
+          box-shadow: 32px 32px 63px #094172, -32px -32px 63px #0c579a;
+  width: 60%;
+  margin: auto;
+}
+
+.sponsors-text {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 2em;
+}
+
+.plat-sponsor-logos, .gold-sponsor-logos {
+  width: 60%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.plat-sponsor-logos img, .gold-sponsor-logos img {
+  width: 35vw;
+  height: 35vw;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.silver-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60%;
+  margin: 6em auto auto auto;
+}
+
+.silver-row img {
+  width: 12vw;
+  height: 12vw;
+  max-width: 150px;
+  max-height: 150px;
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+}
+
+.in-kind-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60%;
+  margin: auto;
+}
+
+.in-kind-row img {
+  width: 12vw;
+  height: 12vw;
+  max-width: 150px;
+  max-height: 150px;
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+}
+
+.logo {
+  margin: 2em;
+}
+
+#sponsors {
+  width: 100%;
+}
+
+#codeninjas {
+  width: 18vw;
+  height: 7vw;
+}
+
+#roboflow {
+  width: 15vw;
+  height: 7vw;
+}
+
+#voiceflow {
+  width: 12vw;
+  height: 5vw;
+}
+
+#interviewcake {
+  width: 15vw;
+  height: 5vw;
+}
+
+@media screen and (max-width: 768px) {
+  .silver-row img {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+  .in-kind-row img {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+}
+/*# sourceMappingURL=Sponsors.css.map */
