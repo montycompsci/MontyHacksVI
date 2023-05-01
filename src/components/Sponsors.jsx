@@ -26,7 +26,9 @@ function Sponsors() {
             <div style={{ height: '30px' }}></div>
             <h2 className='section-title'>sponsors</h2>
             <div className='sponsors'>
-                <h3 className='text-center'>Coming Soon</h3>
+                <h3 className='text-center' style={{ color: 'white' }}>
+                    Coming Soon
+                </h3>
                 {/* <div className="plat-sponsor-logos"></div>
         <div className="gold-sponsor-logos">
           <img

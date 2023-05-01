@@ -28,39 +28,14 @@ function Schedule() {
       time: "10:00am",
     },
     {
-      name: "Intro to Python",
-      description: "Workshop - Hybrid",
-      time: "11:30am",
-    },
-    {
       name: "Lunch",
       description: "In-Person",
       time: "1:00pm",
     },
     {
-      name: "Intro to Computer Vision",
-      description: "Workshop - Hybrid",
-      time: "2:00pm",
-    },
-    {
-      name: "Intro to Web Development",
-      description: "Workshop - Hybrid",
-      time: "3:00pm",
-    },
-    {
-      name: "Intro to AI",
-      description: "Workshop - Hybrid",
-      time: "4:00pm",
-    },
-    {
       name: "Snack Break",
       description: "In-Person",
       time: "4:00pm",
-    },
-    {
-      name: "Intro to C",
-      description: "Workshop - Hybrid",
-      time: "5:00pm",
     },
     {
       name: "Dinner",
