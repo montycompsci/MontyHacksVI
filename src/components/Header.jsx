@@ -19,7 +19,7 @@ function Header() {
         <h3 className="hackathon-date">May 13th</h3>
         <br />
         <div id="signup-btn-wrapper">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeNDT4Dtgm7PB7v9xPtlmylRjVkhchQ0L5HWHdUb5CKPOKQFA/viewform?usp=sf_link">
+          <a href="https://forms.gle/2Vb4cscBes9eYFLHA">
             {/* Change the form */}
             <button id="signup-btn">Sign up</button>
           </a>

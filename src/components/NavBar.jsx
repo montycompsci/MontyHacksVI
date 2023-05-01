@@ -23,7 +23,7 @@ function NavBar() {
                         />
                         <span className='logo-text'>
                             {' MontyHacks'}
-                            <span class='small-space'> </span>v
+                            <span class='small-space'> </span>VI
                         </span>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls='responsive-navbar-nav' />
@@ -33,7 +33,7 @@ function NavBar() {
                             <Nav.Link href='#faq'>FAQ</Nav.Link>
                             <Nav.Link href='#schedule'>Schedule</Nav.Link>
                             <Nav.Link href='#sponsors'>Sponsors</Nav.Link>
-                            <Nav.Link href='https://docs.google.com/forms/d/e/1FAIpQLSeNDT4Dtgm7PB7v9xPtlmylRjVkhchQ0L5HWHdUb5CKPOKQFA/viewform?usp=sf_link'>
+                            <Nav.Link href='https://docs.google.com/forms/d/e/1FAIpQLScDXKF_POjXzfnouDdtcSrlOkP7A5maY9Nl1B5x0NpRY6DU7g/viewform?usp=sf_link'>
                                 Sign Up
                             </Nav.Link>
                         </Nav>
