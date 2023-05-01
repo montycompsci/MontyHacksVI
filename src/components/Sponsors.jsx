@@ -1,24 +1,24 @@
 import "../assets/css/Sponsors.scss";
-import Pediatric from "../assets/sponsors/pediatric.jpg";
+// import Pediatric from "../assets/sponsors/pediatric.jpg";
 
-import CoderSchool from "../assets/sponsors/coderschool.png";
-import TigersTale from "../assets/sponsors/tigerstale.png";
-import CodeNinjas from "../assets/sponsors/codeninjas2.png";
-import BrightSight from "../assets/sponsors/brightsight.png";
-import Singer from "../assets/sponsors/singer.png";
-import Kent from "../assets/sponsors/kent.png";
+// import CoderSchool from "../assets/sponsors/coderschool.png";
+// import TigersTale from "../assets/sponsors/tigerstale.png";
+// import CodeNinjas from "../assets/sponsors/codeninjas2.png";
+// import BrightSight from "../assets/sponsors/brightsight.png";
+// import Singer from "../assets/sponsors/singer.png";
+// import Kent from "../assets/sponsors/kent.png";
 
-import InterviewCake from "../assets/sponsors/interviewcake.svg";
-import Roboflow from "../assets/sponsors/roboflow2.png";
-import Voiceflow from "../assets/sponsors/voiceflow.png";
-import Wolfram from "../assets/sponsors/wolfram.svg";
-import XYZ from "../assets/sponsors/xyz.png";
-import OnePassword from "../assets/sponsors/1password.png";
-import echo3d from "../assets/sponsors/echo3d.png";
-import Replit from "../assets/sponsors/replit.png";
-import Taskade from "../assets/sponsors/taskade.png";
-import InstaCrystal from "../assets/sponsors/instacrystal.png";
-import StickerGiant from "../assets/sponsors/stickergiant.png";
+// import InterviewCake from "../assets/sponsors/interviewcake.svg";
+// import Roboflow from "../assets/sponsors/roboflow2.png";
+// import Voiceflow from "../assets/sponsors/voiceflow.png";
+// import Wolfram from "../assets/sponsors/wolfram.svg";
+// import XYZ from "../assets/sponsors/xyz.png";
+// import OnePassword from "../assets/sponsors/1password.png";
+// import echo3d from "../assets/sponsors/echo3d.png";
+// import Replit from "../assets/sponsors/replit.png";
+// import Taskade from "../assets/sponsors/taskade.png";
+// import InstaCrystal from "../assets/sponsors/instacrystal.png";
+// import StickerGiant from "../assets/sponsors/stickergiant.png";
 
 function Sponsors() {
   return (
