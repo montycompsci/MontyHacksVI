@@ -1,4 +1,4 @@
-import "../assets/css/Sponsors.scss";
+import '../assets/css/Sponsors.scss';
 // import Pediatric from "../assets/sponsors/pediatric.jpg";
 
 // import CoderSchool from "../assets/sponsors/coderschool.png";
@@ -21,12 +21,13 @@ import "../assets/css/Sponsors.scss";
 // import StickerGiant from "../assets/sponsors/stickergiant.png";
 
 function Sponsors() {
-  return (
-    <div id="sponsors">
-      <div style={{ height: "30px" }}></div>
-      <h2 className="section-title">sponsors</h2>
-      <div className="sponsors">
-        <div className="plat-sponsor-logos"></div>
+    return (
+        <div id='sponsors'>
+            <div style={{ height: '30px' }}></div>
+            <h2 className='section-title'>sponsors</h2>
+            <div className='sponsors'>
+                <h3 className='text-center'>Coming Soon</h3>
+                {/* <div className="plat-sponsor-logos"></div>
         <div className="gold-sponsor-logos">
           <img
             src={Pediatric}
@@ -179,10 +180,10 @@ function Sponsors() {
               />
             </div>
           </div>
+        </div> */}
+            </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 }
 
 export default Sponsors;
