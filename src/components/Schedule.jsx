@@ -23,19 +23,13 @@ function Schedule() {
       time: "10:00am",
     },
     {
-      name: "Breakfast",
-      description: "In-Person",
-      time: "10:00am",
+      name: "Workshop: Resume Building for Internships, College, and Beyond",
+      time: "11:30am",
     },
     {
       name: "Lunch",
       description: "In-Person",
       time: "1:00pm",
-    },
-    {
-      name: "Snack Break",
-      description: "In-Person",
-      time: "4:00pm",
     },
     {
       name: "Dinner",
