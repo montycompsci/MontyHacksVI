@@ -16,8 +16,8 @@ function Sponsors() {
                         src={Pediatric}
                         alt='pediatric logo'
                         className='financial-logo'
-                        width='300'
-                        height='300'
+                        width='30%'
+                        height='30%'
                     />
                 </div>
                 <div className='plat-sponsor-logos'>
